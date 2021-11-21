@@ -26,6 +26,7 @@ int main(int argc, char** argv){
     printf("FLOAT_MIN : %g\n", (float) FLT_MIN);
     printf("-FLOAT_MAX : %g\n", (float) -FLT_MAX);
     printf("-FLOAT_MIN : %g\n", (float) -FLT_MIN);
+    printf("Storage size for double : %d\n", sizeof(double));
     printf("DOUBLE_MAX : %g\n", (double) DBL_MAX);
     printf("DOUBLE_MIN : %g\n", (double) DBL_MIN);
     printf("-DOUBLE_MAX : %g\n", (double) -DBL_MAX);
